@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  color: #1f1f1f;
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  overflow: hidden;
+}
+main {
+  height: calc(100vh - 82px) !important;
+  width: 100%;
+  background: rgb(34, 123, 148);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 123, 148, 1) 0%,
+    rgba(120, 183, 208, 1) 86%,
+    rgba(251, 251, 251, 1) 100%
+  );
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+.title {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logoTitle {
+  font-size: 2rem;
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.topBtn {
+  padding: 10px 25px;
+  font-family: inter;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f1f1f;
+  border-radius: 20px;
+  background-color: #78b7d0;
+  border-color: #78b7d0;
+}
+h1 span,
+h1 {
+  font-size: 2.5rem;
+  font-family: jua;
+  font-family: 'Jua', sans-serif;
+}
+h1 span {
+  background: -webkit-linear-gradient(90deg, #9a9a9a 0%, #1f1f1f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+  padding-left: 40px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+ul li {
+  font-size: 1.5rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  width: auto;
+  padding: 70px;
+  background: linear-gradient(
+    -129deg,
+    #78b7d0 0%,
+
+    #3d5d6a 100%
+  );
+}
+.right img {
+  border-radius: 33px;
+}
+.downloadBtn {
+  margin: 0px auto;
+  background-color: #ffdc7e;
+  font-size: 2.4rem;
+  padding: 10px 35px;
+  font-weight: 600;
+  border-radius: 16px;
+  width: fit-content;
+}
